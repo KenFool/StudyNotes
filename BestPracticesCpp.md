@@ -6,7 +6,7 @@
 
 ```cpp
 noexecpt       //... trivial types do not throw exceptions (trivial types: trivially copy-, move-,move-construct- and copy-construct-able types) (it is a type-trait)
-[[nodiscard]]  //... this throws an error if the return type will not be used
+[[nodiscard]]  //... Forces Compiler-Warnings an error if the return type will not be used
 constexpr      //... Ähnlich zu const
 auto           //... automatically deducts lvalue-type by evaluating rvalue-type
 ```
